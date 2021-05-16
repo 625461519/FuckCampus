@@ -8,8 +8,7 @@ name: AutoDailyCP
 
 on:
   push:
-    branches: 
-      - master
+    branches: [ master ]
   watch:
     types: started
   schedule:
