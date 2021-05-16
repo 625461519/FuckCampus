@@ -12,7 +12,7 @@ on:
   watch:
     types: started
   schedule:
-    - cron:  0/5 * * * *
+    - cron:  32/5 * * * *
 
 jobs:
   build:
