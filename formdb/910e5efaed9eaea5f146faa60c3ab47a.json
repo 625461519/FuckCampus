@@ -1,0 +1,248 @@
+[
+    {
+        "wid": "12600",
+        "formWid": "1245",
+        "fieldType": 2,
+        "title": "本日您是否有发烧症状(体温37.3°C以上)",
+        "description": "",
+        "minLength": 0,
+        "sort": "1",
+        "maxLength": null,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field001",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "29660",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29661",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            }
+        ]
+    },
+    {
+        "wid": "12601",
+        "formWid": "1245",
+        "fieldType": 2,
+        "title": "前14天至今,您本人到过的地点(含途径)",
+        "description": "",
+        "minLength": 0,
+        "sort": "2",
+        "maxLength": null,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field002",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "29662",
+                "content": "未离开居住地",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "29663",
+                "content": "国内中高风险地区",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29664",
+                "content": "国境外",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+           {
+                "itemWid": "29664",
+                "content": "其他",
+                "isOtherItems": 1,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "12602",
+        "formWid": "1245",
+        "fieldType": 2,
+        "title": "前14天至今,您本人是否接触过以下人员",
+        "description": "",
+        "minLength": 0,
+        "sort": "3",
+        "maxLength": null,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 1,
+        "colName": "field003",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "29665",
+                "content": "无相关接触史",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "29666",
+                "content": "从中高风险地区回来的人员",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29667",
+                "content": "近14天从国(境)外回来人员",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29668",
+                "content": "确诊或者疑似病患人员",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "12603",
+        "formWid": "1245",
+        "fieldType": 2,
+        "title": "今天你的身体状况是？",
+        "description": "",
+        "minLength": 0,
+        "sort": "4",
+        "maxLength": null,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 1,
+        "colName": "field004",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "29669",
+                "content": "健康,没有出现相关疾病症状",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "29670",
+                "content": "咳嗽",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29671",
+                "content": "乏力,肌肉疼痛",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29672",
+                "content": "呼吸困难",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29673",
+                "content": "心慌、胸闷",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+            {
+                "itemWid": "29674",
+                "content": "恶心、呕吐、腹泻",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+            {
+                "itemWid": "29675",
+                "content": "其他",
+                "isOtherItems": 1,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "12604",
+        "formWid": "1245",
+        "fieldType": 2,
+        "title": "今天您的家人身体健康情况",
+        "description": "",
+        "minLength": 0,
+        "sort": "5",
+        "maxLength": null,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 1,
+        "colName": "field005",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "29676",
+                "content": "所有家人身体均健康,正常",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "29677",
+                "content": "有家人发热、咳嗽、乏力、呼吸急促等不适症状其中一项或多项",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29678",
+                "content": "有家人被列为确诊或者疑似新型冠状病毒感染对象",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "29679",
+                "content": "其他",
+                "isOtherItems": 1,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    }
